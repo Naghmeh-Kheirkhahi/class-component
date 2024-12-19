@@ -9,6 +9,7 @@ import { ThemeProvider } from './Components/Theme/ThemeContext';
 import ThemeTest from './Components/Theme/ThemeTest';
 import NameFilter from './Components/Theme/NameFilter/NameFilter';
 import Navbar from './Components/Navbar/Navbar';
+import Welcome from './Components/Welcome/Welcome';
 
 
 function App() {
@@ -52,6 +53,8 @@ function App() {
         <NameFilter />
 
         <ThemeTest />
+
+        <Welcome />
       </ThemeProvider>
     </>
   );
