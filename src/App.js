@@ -10,6 +10,8 @@ import ThemeTest from './Components/Theme/ThemeTest';
 import NameFilter from './Components/Theme/NameFilter/NameFilter';
 import Navbar from './Components/Navbar/Navbar';
 import Welcome from './Components/Welcome/Welcome';
+import Test from './Components/Tialwind/Test';
+import ToggleComponent from './Components/Custom Hook/ToggleComponent';
 
 
 function App() {
@@ -55,6 +57,10 @@ function App() {
         <ThemeTest />
 
         <Welcome />
+
+        <Test />
+
+        <ToggleComponent />
       </ThemeProvider>
     </>
   );
