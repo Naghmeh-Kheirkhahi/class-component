@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 
-function useToggle(initialValue = false) {
+function useToggle(initialValue = false) { // default value is false.
   const [value, setValue] = useState(initialValue);
 
   const toggle = () => {
